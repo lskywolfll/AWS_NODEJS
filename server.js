@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-const POET = 8080;
+const PORT = 8080;
 const HOST = '0.0.0.0';
 
 app.use(cors({ methods: ['*'], credentials: false, origin: '*' }));
