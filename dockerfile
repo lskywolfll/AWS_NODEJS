@@ -16,5 +16,5 @@ RUN npm install --silent
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 5555
 CMD [ "node", "server.js" ]
